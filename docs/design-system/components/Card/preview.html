@@ -1,0 +1,29 @@
+<!-- @dsCard group="Conteúdo" height=300 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; padding: 24px; background: var(--branco); }
+  #root { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; align-items: start; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  (function () {
+    var h = React.createElement, V = window.InstitutoVOSZ;
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      h(React.Fragment, null,
+        h(V.Card, { eyebrow: 'Frente de atuação', title: 'Educação, arte e cultura', footer: h(V.Button, { variant: 'secondary' }, 'Saiba mais') },
+          'Contraturno socioeducativo, idiomas, robótica, música e teatro.'),
+        h(V.Card, { variant: 'tint', title: 'Cuidado e desenvolvimento', footer: h(V.Tag, null, 'Esporte') },
+          'Alimentação, esporte, acolhimento e apoio neuropsicológico.'),
+        h(V.Card, { variant: 'destaque', title: 'É permitido sonhar', footer: h(V.Button, { variant: 'accent' }, 'Doe agora') },
+          'Sua doação sustenta a continuidade do cuidado.')
+      )
+    );
+  })();
+</script>
+</body>
+</html>

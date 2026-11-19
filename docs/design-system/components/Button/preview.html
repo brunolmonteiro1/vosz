@@ -1,0 +1,28 @@
+<!-- @dsCard group="Ações" height=120 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; padding: 24px; background: var(--branco); }
+  #root { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  (function () {
+    var h = React.createElement, B = window.InstitutoVOSZ.Button;
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      h(React.Fragment, null,
+        h(B, null, 'Participe'),
+        h(B, { variant: 'secondary' }, 'Saiba mais'),
+        h(B, { variant: 'accent' }, 'Doe agora'),
+        h(B, { size: 'lg' }, 'Fale com a gente'),
+        h(B, { disabled: true }, 'Inscrições encerradas')
+      )
+    );
+  })();
+</script>
+</body>
+</html>

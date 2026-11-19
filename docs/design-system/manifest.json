@@ -1,0 +1,269 @@
+{
+  "manifestVersion": 3,
+  "name": "Instituto Vosz",
+  "namespace": "InstitutoVOSZ",
+  "files": [
+    "assets/Logos/README.md",
+    "components/Button/README.md",
+    "components/Card/README.md",
+    "components/Tag/README.md",
+    "components/bundle.css",
+    "components/bundle.js",
+    "components/index.d.ts",
+    "institucional.md",
+    "tokens.css"
+  ],
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18",
+      "global": "React"
+    },
+    {
+      "name": "react-dom",
+      "version": "18",
+      "global": "ReactDOM"
+    }
+  ],
+  "components": [
+    {
+      "name": "Button",
+      "group": "Ações",
+      "summary": "Botão para a ação principal ou secundária de uma tela."
+    },
+    {
+      "name": "Card",
+      "group": "Conteúdo",
+      "summary": "Cartão para agrupar um título, um texto curto e ações sobre um mesmo assunto."
+    },
+    {
+      "name": "Tag",
+      "group": "Conteúdo",
+      "summary": "Etiqueta em forma de pílula para categoria ou estado de um item."
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "logo-horizontal-cor.png",
+        "logo-horizontal-negativo.png",
+        "logo-horizontal-branco.webp",
+        "logo-horizontal-preto.webp",
+        "logo-empilhado-cor.webp",
+        "logo-empilhado-fundo-roxo.webp",
+        "logo-empilhado-negativo.webp",
+        "logo-empilhado-branco.webp",
+        "logo-empilhado-preto.webp",
+        "logo-vertical-cor.webp",
+        "logo-vertical-negativo.webp",
+        "logo-vertical-branco.webp",
+        "logo-vertical-preto.webp",
+        "simbolo-cor.png",
+        "simbolo-fundo-roxo.webp",
+        "simbolo-negativo.webp",
+        "simbolo-branco.png",
+        "simbolo-preto.webp",
+        "wordmark-cor.png"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos/logo-horizontal-cor.png",
+          "id": "af70e540dfcf5af16f757b15d5268570"
+        },
+        {
+          "path": "assets/Logos/logo-horizontal-negativo.png",
+          "id": "2ec6d948c50ec1c1f0106a72cd7f9195"
+        },
+        {
+          "path": "assets/Logos/logo-horizontal-branco.webp",
+          "id": "66f5a19545e31a73df2888042c07bf2e"
+        },
+        {
+          "path": "assets/Logos/logo-horizontal-preto.webp",
+          "id": "dcaed6ac846feb8334eeeee5a0d94192"
+        },
+        {
+          "path": "assets/Logos/logo-empilhado-cor.webp",
+          "id": "95ab8c18dd09ccf91e37b5826e7c8130"
+        },
+        {
+          "path": "assets/Logos/logo-empilhado-fundo-roxo.webp",
+          "id": "968d152ca4501f867dee94972f4efeb4"
+        },
+        {
+          "path": "assets/Logos/logo-empilhado-negativo.webp",
+          "id": "9d878ef23302034989e9ee4486d42607"
+        },
+        {
+          "path": "assets/Logos/logo-empilhado-branco.webp",
+          "id": "86a3b329d47bdfaf9f5bc098aa6a030d"
+        },
+        {
+          "path": "assets/Logos/logo-empilhado-preto.webp",
+          "id": "7bae3c0e17dd49c1398816c59ce57947"
+        },
+        {
+          "path": "assets/Logos/logo-vertical-cor.webp",
+          "id": "406e956911b19a0ea1d06b0641db50a6"
+        },
+        {
+          "path": "assets/Logos/logo-vertical-negativo.webp",
+          "id": "10b5d331f84a23464a4ea2381a146d5f"
+        },
+        {
+          "path": "assets/Logos/logo-vertical-branco.webp",
+          "id": "9207c13b15adc4de6905e01a770f0b96"
+        },
+        {
+          "path": "assets/Logos/logo-vertical-preto.webp",
+          "id": "948ce68c55d2f76685a56cbc0283bbc3"
+        },
+        {
+          "path": "assets/Logos/simbolo-cor.png",
+          "id": "088d3a8926d160f4519dba779d6a1853"
+        },
+        {
+          "path": "assets/Logos/simbolo-fundo-roxo.webp",
+          "id": "10095c734d671b88f609adfafd4245a8"
+        },
+        {
+          "path": "assets/Logos/simbolo-negativo.webp",
+          "id": "29d7486d4e9f5ff7aab0fe7db69997f6"
+        },
+        {
+          "path": "assets/Logos/simbolo-branco.png",
+          "id": "b4cabed2995160c58ce9778bb819fa13"
+        },
+        {
+          "path": "assets/Logos/simbolo-preto.webp",
+          "id": "67c71c178cf51df7d286a2f5dce2bf46"
+        },
+        {
+          "path": "assets/Logos/wordmark-cor.png",
+          "id": "e75081db513a66ddae7bf93fc15b4d41"
+        }
+      ]
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Logos/logo-empilhado-branco.webp": {
+        "store": "blob",
+        "id": "86a3b329d47bdfaf9f5bc098aa6a030d",
+        "bytes": 72334,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-empilhado-cor.webp": {
+        "store": "blob",
+        "id": "95ab8c18dd09ccf91e37b5826e7c8130",
+        "bytes": 118548,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-empilhado-fundo-roxo.webp": {
+        "store": "blob",
+        "id": "968d152ca4501f867dee94972f4efeb4",
+        "bytes": 64168,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-empilhado-negativo.webp": {
+        "store": "blob",
+        "id": "9d878ef23302034989e9ee4486d42607",
+        "bytes": 89402,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-empilhado-preto.webp": {
+        "store": "blob",
+        "id": "7bae3c0e17dd49c1398816c59ce57947",
+        "bytes": 69194,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-horizontal-branco.webp": {
+        "store": "blob",
+        "id": "66f5a19545e31a73df2888042c07bf2e",
+        "bytes": 49606,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-horizontal-cor.png": {
+        "store": "blob",
+        "id": "af70e540dfcf5af16f757b15d5268570",
+        "bytes": 51362,
+        "type": "image/png"
+      },
+      "assets/Logos/logo-horizontal-negativo.png": {
+        "store": "blob",
+        "id": "2ec6d948c50ec1c1f0106a72cd7f9195",
+        "bytes": 45873,
+        "type": "image/png"
+      },
+      "assets/Logos/logo-horizontal-preto.webp": {
+        "store": "blob",
+        "id": "dcaed6ac846feb8334eeeee5a0d94192",
+        "bytes": 47450,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-vertical-branco.webp": {
+        "store": "blob",
+        "id": "9207c13b15adc4de6905e01a770f0b96",
+        "bytes": 80628,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-vertical-cor.webp": {
+        "store": "blob",
+        "id": "406e956911b19a0ea1d06b0641db50a6",
+        "bytes": 132034,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-vertical-negativo.webp": {
+        "store": "blob",
+        "id": "10b5d331f84a23464a4ea2381a146d5f",
+        "bytes": 90956,
+        "type": "image/webp"
+      },
+      "assets/Logos/logo-vertical-preto.webp": {
+        "store": "blob",
+        "id": "948ce68c55d2f76685a56cbc0283bbc3",
+        "bytes": 77204,
+        "type": "image/webp"
+      },
+      "assets/Logos/simbolo-branco.png": {
+        "store": "blob",
+        "id": "b4cabed2995160c58ce9778bb819fa13",
+        "bytes": 70496,
+        "type": "image/png"
+      },
+      "assets/Logos/simbolo-cor.png": {
+        "store": "blob",
+        "id": "088d3a8926d160f4519dba779d6a1853",
+        "bytes": 73981,
+        "type": "image/png"
+      },
+      "assets/Logos/simbolo-fundo-roxo.webp": {
+        "store": "blob",
+        "id": "10095c734d671b88f609adfafd4245a8",
+        "bytes": 52022,
+        "type": "image/webp"
+      },
+      "assets/Logos/simbolo-negativo.webp": {
+        "store": "blob",
+        "id": "29d7486d4e9f5ff7aab0fe7db69997f6",
+        "bytes": 70196,
+        "type": "image/webp"
+      },
+      "assets/Logos/simbolo-preto.webp": {
+        "store": "blob",
+        "id": "67c71c178cf51df7d286a2f5dce2bf46",
+        "bytes": 57740,
+        "type": "image/webp"
+      },
+      "assets/Logos/wordmark-cor.png": {
+        "store": "blob",
+        "id": "e75081db513a66ddae7bf93fc15b4d41",
+        "bytes": 22584,
+        "type": "image/png"
+      }
+    },
+    "blobBytesUsed": 1335778
+  }
+}

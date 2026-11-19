@@ -1,0 +1,61 @@
+<!-- @dsCard height=288 width=960 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=PT+Sans:wght@400;700&display=swap">
+<style>
+  html, body { margin: 0; }
+  body { background: var(--branco); }
+  .cover { position: relative; width: 960px; height: 288px; overflow: hidden; background: var(--branco); }
+  .cover svg { position: absolute; inset: 0; }
+  .text { position: absolute; left: var(--space-8); bottom: var(--space-8); width: 440px; }
+  .name { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 72px; line-height: .95; letter-spacing: -0.01em; color: var(--texto); }
+  .tag { margin: var(--space-4) 0 0; font-family: var(--font-sans); font-size: 14px; line-height: 1.4; color: var(--texto-suave); }
+  .roxo { fill: var(--roxo); }
+  .magenta { fill: var(--magenta); }
+  .escuro { fill: var(--roxo-escuro); }
+  .claro { fill: var(--roxo-claro); }
+  .v { fill: none; stroke-width: 12px; stroke-linejoin: round; stroke-linecap: round; }
+  .v-branco { stroke: var(--branco); }
+  .v-magenta { stroke: var(--magenta); }
+</style>
+</head>
+<body>
+<div class="cover">
+  <!--
+    blocos: roxo 320×288, magenta 144×144, roxo-escuro 144×96, roxo-claro 144×48
+    arranjo: uma laje roxa alta com três satélites empilhados à direita, sangrando nas bordas
+    padrão: chevrons — o V do símbolo, em fileiras, dois em magenta como no logo (6 roxos : 2 magenta); um disco roxo ecoa a "cabeça"
+    passos e raios: passo 72 (space-18), margem 32 (space-8), traço 12 (radius-md), disco r=32 (space-8)
+  -->
+  <svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+    <rect class="roxo" x="496" y="0" width="320" height="288"/>
+    <rect class="magenta" x="816" y="0" width="144" height="144"/>
+    <rect class="escuro" x="816" y="144" width="144" height="96"/>
+    <rect class="claro" x="816" y="240" width="144" height="48"/>
+    <circle class="roxo" cx="888" cy="72" r="32"/>
+    <g class="v v-branco">
+      <polyline points="528,56 548,88 568,56"/>
+      <polyline points="600,56 620,88 640,56"/>
+      <polyline points="672,56 692,88 712,56"/>
+      <polyline points="528,128 548,160 568,128"/>
+      <polyline points="600,128 620,160 640,128"/>
+      <polyline points="744,128 764,160 784,128"/>
+      <polyline points="600,200 620,232 640,200"/>
+      <polyline points="672,200 692,232 712,200"/>
+      <polyline points="744,200 764,232 784,200"/>
+      <polyline points="672,128 692,160 712,128"/>
+    </g>
+    <g class="v v-magenta">
+      <polyline points="744,56 764,88 784,56"/>
+      <polyline points="528,200 548,232 568,200"/>
+    </g>
+  </svg>
+  <div class="text">
+    <h1 class="name">Instituto Vosz</h1>
+    <p class="tag">Nós ensinamos que é permitido sonhar.</p>
+  </div>
+</div>
+</body>
+</html>

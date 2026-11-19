@@ -1,0 +1,85 @@
+/* Instituto Vosz — generated from tokens.json */
+:root, [data-theme="light"] {
+  --roxo: #4200ac; /* Cor principal da marca, medida nos arquivos do logo. Fundos de destaque, títulos e botões primários; texto sobre `branco` e `roxo-claro`. */
+  --magenta: #ff00a7; /* Cor de acento da marca, medida nos arquivos do logo. Blocos, formas e destaques grandes. Não usar em texto pequeno: sobre `branco` e sobre `roxo` só alcança 3:1 (texto de 24px ou mais, ícones e formas). */
+  --roxo-escuro: #1c0049; /* Tom derivado do `roxo`. Texto corrido sobre `branco`, `roxo-claro` e `magenta-claro`; texto sobre preenchimento `magenta`; fundos escuros. */
+  --magenta-escuro: #c4007f; /* Tom derivado do `magenta`. Links e texto de acento em tamanho pequeno sobre `branco` (5,7:1). */
+  --roxo-claro: #efe8fb; /* Tom derivado do `roxo`. Fundo de seções e cartões sobre `branco`. */
+  --magenta-claro: #ffe5f6; /* Tom derivado do `magenta`. Fundo de avisos e destaques suaves. */
+  --branco: #ffffff; /* Fundo padrão da página; texto e logo sobre `roxo` e `roxo-escuro`. */
+  --preto: #000000; /* Somente para as versões monocromáticas do logo em impressão de uma cor. */
+  --texto: var(--roxo-escuro); /* Texto corrido sobre `branco`, `roxo-claro` e `magenta-claro`. */
+  --texto-suave: #5b4a7a; /* Legendas e texto secundário sobre `branco` e `roxo-claro` (acima de 4,5:1). */
+  --borda: #8a74b8; /* Contorno de campos e cartões sobre `branco` e `roxo-claro` (acima de 3:1). */
+}
+:root {
+  --space-1: 4px; /* Folga entre ícone e rótulo. */
+  --space-2: 8px; /* Espaço interno de etiquetas; entre itens próximos. */
+  --space-4: 16px; /* Espaço interno de botões e campos; margem lateral no celular. */
+  --space-6: 24px; /* Espaço interno de cartões; entre parágrafos e blocos. */
+  --space-8: 32px; /* Margem de página; entre grupos de conteúdo. */
+  --space-12: 48px; /* Entre seções. */
+  --space-18: 72px; /* Respiro de capas e blocos de destaque. */
+  --radius-sm: 4px; /* Etiquetas e campos. */
+  --radius-md: 12px; /* Botões e cartões. */
+  --radius-lg: 24px; /* Blocos de destaque e imagens. */
+  --radius-pill: 999px; /* Pílulas e avatares, ecoando os círculos do símbolo. */
+  --font-display: "Archivo Black", "Arial Black", sans-serif;
+  --font-sans: "PT Sans", system-ui, sans-serif;
+  --text-display: 400 64px/0.95 var(--font-display); /* Capas, cartazes e a frase principal de uma página. Uma vez por peça. */
+  --text-titulo-1: 400 40px/1.05 var(--font-display); /* Título de página ou de slide. */
+  --text-titulo-2: 400 28px/1.1 var(--font-display); /* Título de seção. */
+  --text-subtitulo: 700 20px/1.35 var(--font-sans); /* Subtítulos e chamadas curtas. */
+  --text-corpo: 400 16px/1.5 var(--font-sans); /* Texto corrido. */
+  --text-corpo-forte: 700 16px/1.5 var(--font-sans); /* Ênfase dentro do texto corrido; rótulos de botões. */
+  --text-legenda: 400 13px/1.4 var(--font-sans); /* Legendas, créditos e notas, em `texto-suave`. */
+}
+.display {
+  font-family: var(--font-display);
+  font-size: 64px;
+  line-height: 0.95;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.titulo-1 {
+  font-family: var(--font-display);
+  font-size: 40px;
+  line-height: 1.05;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.titulo-2 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.subtitulo {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.corpo {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.corpo-forte {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.legenda {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0;
+}

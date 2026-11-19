@@ -1,0 +1,28 @@
+<!-- @dsCard group="Conteúdo" height=88 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; padding: 24px; background: var(--branco); }
+  #root { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  (function () {
+    var h = React.createElement, T = window.InstitutoVOSZ.Tag;
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      h(React.Fragment, null,
+        h(T, null, 'Música'),
+        h(T, null, 'Robótica'),
+        h(T, { variant: 'magenta' }, 'Novo'),
+        h(T, { variant: 'solido' }, 'Selecionado'),
+        h(T, null, 'Em breve')
+      )
+    );
+  })();
+</script>
+</body>
+</html>

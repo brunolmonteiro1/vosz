@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=PT+Sans:wght@400;700&display=swap");
+
+/* Button */
+.vsz-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+}
+.vsz-button--md { min-height: 44px; padding: var(--space-2) var(--space-6); font-size: 16px; }
+.vsz-button--lg { min-height: 56px; padding: var(--space-4) var(--space-8); font-size: 20px; }
+.vsz-button--primary { background: var(--roxo); color: var(--branco); }
+.vsz-button--primary:hover { background: var(--roxo-escuro); }
+.vsz-button--secondary { background: var(--branco); color: var(--roxo); border-color: var(--roxo); }
+.vsz-button--secondary:hover { background: var(--roxo-claro); }
+.vsz-button--accent { background: var(--magenta); color: var(--roxo-escuro); }
+.vsz-button--accent:hover { background: var(--magenta-claro); border-color: var(--magenta-escuro); }
+.vsz-button:focus-visible { outline: 3px solid var(--roxo-escuro); outline-offset: 2px; }
+.vsz-button:disabled { background: var(--roxo-claro); color: var(--texto-suave); border-color: transparent; cursor: not-allowed; }
+
+/* Card */
+.vsz-card {
+  box-sizing: border-box;
+  padding: var(--space-6);
+  border: 1px solid var(--borda);
+  border-radius: var(--radius-md);
+  background: var(--branco);
+  color: var(--texto);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.vsz-card--tint { background: var(--roxo-claro); border-color: transparent; }
+.vsz-card--destaque { background: var(--roxo); border-color: transparent; color: var(--branco); border-radius: var(--radius-lg); }
+.vsz-card__eyebrow { margin: 0 0 var(--space-2); font-size: 13px; line-height: 1.4; font-weight: 700; color: var(--texto-suave); }
+.vsz-card--destaque .vsz-card__eyebrow { color: var(--branco); }
+.vsz-card__title { margin: 0 0 var(--space-2); font-family: var(--font-display); font-weight: 400; font-size: 28px; line-height: 1.1; color: var(--roxo); }
+.vsz-card--destaque .vsz-card__title { color: var(--branco); }
+.vsz-card__body > :first-child { margin-top: 0; }
+.vsz-card__body > :last-child { margin-bottom: 0; }
+.vsz-card__footer { margin-top: var(--space-6); display: flex; flex-wrap: wrap; gap: var(--space-2); }
+
+/* Tag */
+.vsz-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-pill);
+  padding-inline: 12px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.vsz-tag--roxo { background: var(--roxo-claro); color: var(--roxo); }
+.vsz-tag--magenta { background: var(--magenta-claro); color: var(--magenta-escuro); }
+.vsz-tag--solido { background: var(--roxo); color: var(--branco); }
