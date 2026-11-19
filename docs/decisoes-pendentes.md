@@ -4,7 +4,7 @@ Itens que dependem do Instituto. No sistema ficam parametrizáveis e marcados "p
 
 | Decisão | Afeta | Responsável | Situação |
 |---|---|---|---|
-| Logo e cores oficiais da marca | Sistema de design (hoje usa paleta proposta: petróleo, âmbar, papel) | Direção | Aberta |
+| Aprovação visual das telas com a marca oficial (`docs/design-system/`) | Sistema de design | Direção | Aberta |
 | Nome definitivo do sistema (trabalho: Vosz Acompanha) | Interface e documentos | Direção | Aberta |
 | Perguntas padronizadas de segurança alimentar | Entrega 5 (IVAV) | Direção / Serviço Social | Aberta |
 | Peso de eventual bônus por mãe solo | Entrega 5 (IVAV) | Direção | Aberta |
