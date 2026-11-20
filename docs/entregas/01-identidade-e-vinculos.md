@@ -52,3 +52,19 @@ Conteúdo de ajuda: todas as entradas citam seção do blueprint; os 6 termos e 
 - Conferir as correções acima.
 - Criar o primeiro administrador em `/configuracao-inicial` (responsável).
 - Repositório GitHub do código: o Lovable não liga a um repositório existente; aguarda conexão pelo editor.
+
+## Verificação no código (repositório `brunolmonteiro1/vosz-warmth-and-guidance`)
+
+Clone do commit `fffb469`, rodado aqui:
+
+| Verificação | Resultado |
+|---|---|
+| Tipagem (`tsc --noEmit`) | sem erros |
+| Testes (`vitest run`) | 6 de 6 passaram |
+| Build de produção | concluído |
+| Lint | 15 avisos de recarga em desenvolvimento (inofensivos) e 1.356 erros só de formatação: o agente grava código em linhas muito longas. Não afeta o funcionamento; dificulta revisão. |
+| Chave administrativa do banco | não está no repositório (o `.env` só tem as chaves públicas) — correto |
+
+Capturas da tela de entrada: `capturas/e1-entrar-desktop.png` e `capturas/e1-entrar-celular.png`. As telas internas exigem login; não criei o primeiro administrador para não ocupar o acesso do responsável.
+
+Ajustes visuais notados no celular: botão "Entrar" não ocupa a largura toda e "Esqueci minha senha" está desalinhado à direita do formulário. Localmente, `/configuracao-inicial` fica em "Conferindo configuração…" sem mensagem de erro quando o servidor falha — falta estado de erro.
