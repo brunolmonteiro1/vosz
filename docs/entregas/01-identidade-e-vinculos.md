@@ -68,3 +68,19 @@ Clone do commit `fffb469`, rodado aqui:
 Capturas da tela de entrada: `capturas/e1-entrar-desktop.png` e `capturas/e1-entrar-celular.png`. As telas internas exigem login; não criei o primeiro administrador para não ocupar o acesso do responsável.
 
 Ajustes visuais notados no celular: botão "Entrar" não ocupa a largura toda e "Esqueci minha senha" está desalinhado à direita do formulário. Localmente, `/configuracao-inicial` fica em "Conferindo configuração…" sem mensagem de erro quando o servidor falha — falta estado de erro.
+
+## Correções conferidas (commit `76675b8` do app, migração `0007`)
+
+| Pedido | Resultado |
+|---|---|
+| Confirmações contextuais no lugar de `window.confirm` | 0 ocorrências restantes |
+| Erros ao lado do campo | implementado pelo agente; não conferido visualmente (exige login) |
+| Pessoa, vínculo e contato numa transação | `salvar_pessoa_formulario` grava os três e verifica papel antes |
+| Privilégios | `anon` sem privilégio em nenhuma tabela; nenhum `TRUNCATE` para `anon`/`authenticated`; `anon` executa só `configuracao_aberta` |
+| Turma | nome livre; o campo `cor` ficou como destaque visual (`primary`/`accent`/`tint`), sem lista de cores inventada |
+| "Bolsas por parceiro" | removido |
+| Nome "Vosz Warmth" na interface | nenhuma ocorrência |
+
+Reteste de permissões por papel após as correções: mesmos resultados da tabela acima; a nova função de cadastro recusa educador, admin, direção, sem papel e inativo ("Sem acesso"); anônimo recebe "permissão negada" ao ler tabelas. Tipagem sem erros; 16 de 16 testes passam.
+
+Ficam para a entrega 2 os ajustes de celular na tela de entrada (botão "Entrar" na largura toda, alinhamento de "Esqueci minha senha") e o estado de erro de `/configuracao-inicial`.
