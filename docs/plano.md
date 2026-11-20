@@ -75,7 +75,9 @@ Regra geral: o sistema tem de ser entendido sem treinamento longo. Cada tela res
 - **Botões e menus**: o próprio rótulo explica (verbo + objeto: "Publicar devolutiva"). Botão só com ícone ganha dica com o nome. Ação irreversível ganha confirmação que diz o que vai acontecer.
 - **Glossário**: página única com os termos da casa (IVAV, devolutiva, triagem, edital, rematrícula, Bússola, síntese), acessível pelo menu e pela busca.
 
-**Não inventar**: todo texto de ajuda vem do blueprint ou de decisão do Instituto e fica num único arquivo de conteúdo, com a origem anotada. Onde a definição não existe, a ajuda diz "Definição pendente de aprovação" — nunca um texto plausível. Eu reviso esse arquivo a cada entrega e listo o que ficou pendente.
+**Não inventar**: todo texto de ajuda, política, critério e definição vem do blueprint ou de material enviado pelo Instituto e fica num único arquivo de conteúdo, com a origem anotada. Onde a base não existe, o sistema mostra "Pendente de envio pelo Instituto" — nunca um texto plausível. A lista do que falta está em `docs/pendente-de-envio.md`; eu a reviso a cada entrega.
+
+**Página "Políticas e documentos"**: reúne critérios de elegibilidade, regulamento, política de bolsas, reconsideração, urgência e privacidade, para quem entra na equipe saber as regras. Cada item mostra o texto recebido, com versão e data, ou o selo "Pendente de envio". Administração vê um contador de quantos itens faltam.
 
 **Outras práticas adotadas**
 - Menu por papel: cada pessoa vê só o que usa. A professora vê quatro itens, não doze.
