@@ -65,4 +65,4 @@ Conferência com o perfil do Serviço Social: fila com 72 famílias, todas de or
 - Matriz de acesso de saúde; campos e níveis do Bússola.
 - Pesos do IVAV além da EBIA continuam como minuta "simulada".
 - Conta operacional temporária a desativar ou substituir.
-- O perfil Master (criado no Lovable) herda todas as permissões, inclusive leitura de contatos restritos: confirmar se é o desejado.
+- O perfil Master (criado no Lovable) herda as permissões de todos os papéis e as rotas, mas não lê contato ou contribuição restritos de outra pessoa: confirmar se é o desejado.
