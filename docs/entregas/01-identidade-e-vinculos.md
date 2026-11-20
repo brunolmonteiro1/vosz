@@ -84,3 +84,7 @@ Ajustes visuais notados no celular: botão "Entrar" não ocupa a largura toda e 
 Reteste de permissões por papel após as correções: mesmos resultados da tabela acima; a nova função de cadastro recusa educador, admin, direção, sem papel e inativo ("Sem acesso"); anônimo recebe "permissão negada" ao ler tabelas. Tipagem sem erros; 16 de 16 testes passam.
 
 Ficam para a entrega 2 os ajustes de celular na tela de entrada (botão "Entrar" na largura toda, alinhamento de "Esqueci minha senha") e o estado de erro de `/configuracao-inicial`.
+
+## Formatação (commit `d272459` do app)
+
+Pedido ao Lovable com a skill de workspace `codigo-legivel` criada para valer em todas as entregas. Conferido aqui: lint com 0 erros (restam os 15 avisos inofensivos); tipos sem erros; 16 de 16 testes; build concluído; migrações e arquivos gerados intactos; restam só 2 linhas acima de 200 caracteres nas telas. Handlers longos viraram funções nomeadas. Custo informado pelo Lovable: 6,1 créditos.
