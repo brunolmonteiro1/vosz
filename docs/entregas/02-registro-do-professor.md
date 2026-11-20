@@ -55,3 +55,23 @@ Turmas criadas pela tela de Turmas eram gravadas como "demonstração" e seriam 
 - Juntar a branch ao `main` para aparecer no Lovable (aguarda aval).
 - Quando houver créditos: pedir ao Lovable para regenerar os tipos do banco.
 - Fluxo de urgência e plantão continuam pendentes de envio pelo Instituto.
+
+## Teste de ponta a ponta (20/11/2026)
+
+**Por que o primeiro administrador não pôde ser criado:** durante as correções da entrega 1, o agente do Lovable criou 5 contas de teste para si (domínio `demo.vosz.test`, nomes "Revisão Fictícia", "Administrador Fictício da Revisão" e "Coordenação Fictícia da Revisão"). A conta de administrador ocupou a vaga de primeiro administrador, e a senha ficou só com o agente. Essas 5 contas foram desativadas e marcadas como demonstração; somem com "Apagar dados de demonstração".
+
+**Contas criadas a pedido do responsável:** um administrador técnico real (temporário), `administrador@vosz-acompanha.test`, e a demonstração completa (um usuário fictício por papel, duas turmas, duas famílias, cinco crianças, três registros e uma falha de aviso). As senhas foram entregues ao responsável na conversa e não estão em nenhum arquivo do repositório.
+
+Executado no app rodando contra o banco do projeto, entrando com cada perfil:
+
+| Perfil | Resultado |
+|---|---|
+| Educador A, no celular | Minha turma mostra o botão de registro em cada criança; preencheu as 8 etapas e recebeu `OC-2026-000004` com o próximo passo de "Queria orientação"; Meus registros lista os 3 registros dele; Ocorrências, Pessoas e Usuários respondem "Sem acesso" |
+| Educador B | vê só o próprio registro (`OC-2026-000003`) |
+| Serviço Social | Hoje: 1 urgência, 4 aguardando triagem, 2 pedidos de orientação, 1 falha de aviso; Ocorrências lista os 4 registros; o detalhe mostra quem enviou e o bem-estar em bloco restrito |
+| Coordenação | Ocorrências: "Sem acesso" |
+| Administrador | Configurações mostra destinatários e fila (0 pendentes, 7 simulados, 1 com falha); Ocorrências: "Sem acesso" |
+
+Capturas: `capturas/e2-*.png`. Corrigidos depois do teste: aviso "Retomamos o rascunho" aparecendo sem rascunho e o texto da introdução da tela Hoje.
+
+Juntado ao `main` do app (commit `07ced9d`), com autorização do responsável.
