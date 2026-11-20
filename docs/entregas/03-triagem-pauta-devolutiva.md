@@ -61,4 +61,4 @@ Capturas: `capturas/e3-*.png`.
 ## Pendências
 
 - Quando houver créditos no Lovable: regenerar os tipos do banco (as tabelas novas estão tipadas à mão).
-- Envio de e-mail real das orientações: fica na fila simulada até haver remetente institucional.
+- Publicar uma orientação não gera e-mail ao professor nesta entrega: ele a vê em Orientações e no Hoje. Aviso por e-mail depende de remetente institucional (pendente).
